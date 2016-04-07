@@ -9,6 +9,7 @@
 
 <nav>
 	<ul>
+    <li><a href="#" title="view music">add music</a></li>
 		<li><a href="#" title="add music">add music</a></li>
 		<li><a href="#" title="profile">profile</a></li>
 	</ul>
@@ -17,9 +18,10 @@
 <body>
 
 <fieldset>
-  <legend>title or explanatory caption</legend>
+
+
   <p><label>Artist:
-   <input placeholder="Choose Artist" list="artists" name="myArtists" /></label>
+  <input placeholder="Choose Artist" list="artists" name="myArtists" /></label>
       <datalist id="artist">
          <option value="Kanye West"></option>
          <option value="Pharrell Williams">
@@ -36,6 +38,24 @@
          <option value="Chance The Rapper">
       </datalist></p>
 
+     <label><input type="checkbox" name="chk" value="rock" checked>rock</label>
+     <label><input type="checkbox" name="chk" value="pop" checked>pop</label>
+      <input type="checkbox" name="chk" value="blues" checked>
+      <input type="checkbox" name="chk" value="classical" checked>
+      <input type="checkbox" name="chk" value="jazz" checked>
+      <input type="checkbox" name="chk" value="hip hop" checked>
+
+      <p><button type="submit">Filter</button></p>
+
+</fieldset>
+
+<fieldset>
+<h1>Song Name</h1>
+<ul>
+  <li>artist name</li>
+  <li>album name</li>
+  <li>genre</li>
+</ul>
 </fieldset>
 
 
