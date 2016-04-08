@@ -1,15 +1,21 @@
 
+nav {
+  margin: 5px;
+  padding: ;
+}
+
 ul {
   list-style-type: none;
   margin: 5px 95px 5px 95px;
   padding: ;
-  text-align: center;
+  text-align: ;
   border-style: solid;
   background-color: #FFB4B0
 }
 
 li {
   list-style-type: none;
+  display: inline;
 }
 
 h1 {
@@ -18,8 +24,10 @@ color: #785616
 
 div {
   width: 250px;
+  height: 335px;
   float: left;
   margin: 5px 2px 30px 95px;
+  padding-top: 2%;
   padding-left: 3%;
   padding-right: 3%;
   border-style: solid;
