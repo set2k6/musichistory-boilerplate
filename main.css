@@ -1,8 +1,9 @@
 
 ul {
   list-style-type: none;
-  margin: 5px;
-  padding: 0;
+  margin: 5px 95px 5px 95px;
+  padding: ;
+  text-align: center;
   border-style: solid;
   background-color: #FFB4B0
 }
@@ -18,7 +19,9 @@ color: #785616
 div {
   width: 250px;
   float: left;
-  margin: 5px;
+  margin: 5px 2px 30px 95px;
+  padding-left: 3%;
+  padding-right: 3%;
   border-style: solid;
   border-color: black;
   background-color: #4DD7FA
@@ -27,7 +30,10 @@ div {
 article {
   width: 300px;
   float: right;
-  margin: 5px;
+  margin: 5px 95px 30px 3px;
+  padding-right: 30%;
+  padding-left: 3%;
+  display: inline;
   border-style: solid;
   background-color: #FEFAC0
 }
