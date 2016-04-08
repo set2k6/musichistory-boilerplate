@@ -7,23 +7,26 @@
         <link rel="stylesheet" type="text/css" href="main.css">
   </head>
 
-
+<!--this is my nav-->
 <nav>
   <ul>
-    <li><a href="#" title="view music">view music</a></li>
-    <li><a href="#" title="add music">add music</a></li>
-    <li><a href="#" title="profile">profile</a></li>
+    <li><title="view music">view music | </li>
+    <li><a href="#" title="add music">add music | </a></li>
+    <li><a href="#" title="profile">profile | </a></li>
   </ul>
 </nav>
 
 <body>
 
-<div>
-  <label>Song Length:
-    <input type="range" name="" value=""></label>
+<div class="search">
+  <label>Song Length:</label>
+  <br>
+    <input type="range" name="" value="">
 
-  <p><label>Artist:
+  <p><label>Artist:</label>
+  <br>
     <select name="Artist">
+
       <option value="Kanye West">Kanye West</option>
       <option value="PWilly">Pharrell Williams</option>
       <option value="Childish G">Childish Gambino</option>
@@ -32,8 +35,8 @@
     </select>
   </p>
 
-  <p><label>Album:
-    <select name=""
+  <p><label>Album:</label>
+    <select name="Album">
       <datalist id="albums">
         <option value="MBDTF">MY Beautiful Dark Twisted Fantasy</option>
         <option value="GIRL">Girl</option>
@@ -41,16 +44,46 @@
         <option value="Chance">Somewhere In Paradise</option>
         <option value="Drake">Thank Me Later</option>
       </datalist>
+      </select>
   </p>
+  <label>Genres:</label>
+  <br>
+    <div class="genres-left">
+       <div>
+        <input type="checkbox" name="chk" value="rock">
+        <label>rock</label>
+       </div>
+       <div>
+        <input type="checkbox" name="chk" value="pop">
+        <label>pop</label>
+       </div>
+       <div>
+        <input type="checkbox" name="chk" value="blues">
+        <label>blues</label>
+       </div>
+   </div>
 
-     <label><input type="checkbox" name="chk" value="rock">rock</label>
-     <label><input type="checkbox" name="chk" value="pop">pop</label>
-     <label><input type="checkbox" name="chk" value="blues">blues</label>
-     <label><input type="checkbox" name="chk" value="classical">classical</label>
-     <label><input type="checkbox" name="chk" value="jazz">jazz</label>
-     <label><input type="checkbox" name="chk" value="hip hop">hip hop</label>
 
-  <p><button type="submit">Filter</button></p>
+   <div class="genres-right">
+    <div>
+     <input type="checkbox" name="chk" value="classical">
+     <label>classical</label>
+    </div>
+    <div>
+     <input type="checkbox" name="chk" value="jazz">
+     <label>jazz</label>
+    </div>
+    <div>
+     <input type="checkbox" name="chk" value="hip hop">
+     <label>hip hop</label>
+    </div>
+   </div>
+
+<div>
+  <p>
+  <button type="submit">Filter</button>
+  </p>
+</div>
 </div>
 
 
