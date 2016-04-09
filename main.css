@@ -20,7 +20,7 @@ li {
 }
 
 h1 {
-color: #785616
+  color: #785616
 }
 
 .search {
@@ -37,7 +37,7 @@ color: #785616
 }
 
 .genres-left{
-float: left;
+  float: left;
   border: ;
   margin: px px
   width: px;
@@ -46,7 +46,6 @@ float: left;
 
 .genres-right{
   float: right;
-
   margin: 5px;
 }
 
@@ -74,7 +73,6 @@ button {
   border-style: solid;
   border-color: black;
   border-radius: 7px;
-font-size: 25px;
-
+  font-size: 25px;
 }
 
