@@ -14,36 +14,29 @@ var newSongs = [];
 var text = "";
 var loopCount= 5;
 
-// for(newSongs in songs){
-//   text += songs.replace("by", "Something");
-//   console.log(songs);
-// };
-
-// var newSongs = songs.replace ("by", "helllloooo");
-// console.log(newSongs);
-
-
 songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
 songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
 songs[songs.length] = "Another Brick in the Wall > by Pink Floyd on the album The Wall";
 songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album Appetite for Destruction";
 songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
 
-for (var loopTracker = 0; loopTracker < songs.length; loopTracker += 1) {
-  songs[loopTracker] = songs[loopTracker].replace("Z*ZTop", "ZZTop");
-  songs[loopTracker] = songs[loopTracker].replace("Supertr@amp", "Supertramp");
-  songs[loopTracker] = songs[loopTracker].replace("Welco(me", "Welcome");
-  songs[loopTracker] = songs[loopTracker].replace("Ironi!c", "Ironic");
-  songs[loopTracker] = songs[loopTracker].replace("Moris*ette", "Morisette");songs[loopTracker] = songs[loopTracker].replace(">", "-");
-};
-
-
-
-
 songs.push("Legs");
 songs.unshift("The Logical Song");
+var newSongs = document.getElementById("songContainer");
+
+for (var loopTracker = 0; loopTracker < songs.length; loopTracker += 1) {
+  songs[loopTracker] = songs[loopTracker].replace("*", "");
+  songs[loopTracker] = songs[loopTracker].replace("@", "");
+  songs[loopTracker] = songs[loopTracker].replace("(", "");
+  songs[loopTracker] = songs[loopTracker].replace("!", "");
+  songs[loopTracker] = songs[loopTracker].replace(">", "-");
+  newSongs.innerHTML += "<p>" + songs[loopTracker] + "</p>";
+};
+
+console.log("Music: " + (loopTracker +1) + " " + songs[loopTracker]);
+
+
+
+
 
 console.log("songs",songs);
-
-var newSongs = document.getElementById("songContainer");
-newSongs.innerHTML = songs;
