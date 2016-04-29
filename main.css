@@ -9,7 +9,7 @@ nav {
 
 ul {
   list-style-type: none;
-  border-style:;
+  border-style:
 }
 
 li {
@@ -25,10 +25,10 @@ h1 {
   width: 250px;
   height: 335px;
   float: left;
-  margin: 5px 2px 30px 95px;
+  margin: 5px 3px 30px 95px;
   padding-top: 2%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 38px;
+  padding-right: 38px;
   border-style: solid;
   border-color: black;
   background-color: #4DD7FA
@@ -54,7 +54,7 @@ h1 {
 article {
   width: 300px;
   float: right;
-  margin: 5px 95px 30px 3px;
+  margin: 5px 95px 30px 4px;
   padding-right: 30%;
   padding-left: 3%;
   display: inline;
